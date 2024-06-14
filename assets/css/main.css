@@ -1,0 +1,91 @@
+body {
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic Pro", yugothic, "游ゴシック", "游ゴシック体", san-serif;
+}
+
+.container,
+.headercontainer,
+.footercontainer {
+	max-width: 500px;
+	margin: 0 auto;
+	border: 1px solid #999999;
+	background-color: #F3F3F3;
+	letter-spacing: 1px;
+	line-height: 1;
+}
+
+.container {
+	padding-bottom: 18vw;
+}
+
+@media (min-width: 500px) {
+	.container {
+		padding-bottom: 90px;
+	}
+}
+
+
+.pagination .pagination-container {
+	column-gap: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.pagination .paginate-buttons {
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid rgb(217, 217, 217);
+	color: #9977FF;
+	font-weight: 500;
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.pagination .active-page {
+	background-color: #DDDDDD;
+}
+
+.pagination .paginate-buttons:hover {
+	background-color: #DDDDDD;
+}
+
+.pagination .active {
+	background-color: #DDDDDD;
+}
+
+.pagination .active:hover {
+	background-color: #DDDDDD;
+}
+
+.pagination .back-button:active,
+.pagination .next-button:active {
+	background-color: #DDDDDD;
+}
+
+.scrollbar::-webkit-scrollbar {
+	width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+	background: white;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	background: #DDD;
+	border-radius: 3px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #999;
+}
+
+.scrollbar::-webkit-scrollbar-track-piece:end {
+	background: white;
+	margin-bottom: 0px;
+}
+
+.scrollbar::-webkit-scrollbar-track-piece:start {
+	background: white;
+	margin-top: 0px;
+}
