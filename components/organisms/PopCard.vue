@@ -38,11 +38,7 @@
 				</div>
 				<div>
 					<span class="inline-block w-[13vw] md:w-[65px]">定員</span>
-					<span>：</span>
-					<span class="px-[1vw] md:px-[5px]">
-						定員 10名 /
-						<span class="text-[#FF6600]">残席数 3名</span>
-					</span>
+					：定員 10名 / <span class="text-[#FF6600]">残席数 3名</span>
 				</div>
 			</div>
 			<div class="border-2 border-solid border-[#F6F6F6] my-[1.2vw] md:my-[6px]">
