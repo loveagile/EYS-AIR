@@ -33,10 +33,8 @@
 				<div>
 					<span class="inline-block w-[13vw] md:w-[65px]">開催方法</span>
 					<span>：</span>
-					<span class="px-[1vw] md:px-[5px]">
-						<AtomsRound text="ライブ配信" startColor="#7799FF" endColor="#77DDFF" />
-						<AtomsRound text="動画見逃し配信" startColor="#CCCCCC" endColor="#CCCCCC" class="ml-[1vw] md:ml-[5px]" />
-					</span>
+					<AtomsRound text="ライブ配信" startColor="#7799FF" endColor="#77DDFF" />
+					<AtomsRound text="動画見逃し配信" startColor="#CCCCCC" endColor="#CCCCCC" class="ml-[1vw] md:ml-[5px]" />
 				</div>
 				<div>
 					<span class="inline-block w-[13vw] md:w-[65px]">定員</span>
