@@ -27,8 +27,7 @@
 		</NuxtLink>
 	</div>
 	<div class="relative mb-[4vw] md:mb-[20px]">
-		<NuxtImg src="/img/top/FV.webp" loading="lazy" class="w-full h-[160vw] md:h-[800px] absolute top-0 left-0"
-			alt="FV_bg" />
+		<NuxtImg src="/img/top/FV.webp" class="w-full h-[160vw] md:h-[800px] absolute top-0 left-0" alt="FV_bg" />
 
 		<div class="relative z-10 flex flex-col items-center pt-[6vw] md:pt-[30px]">
 			<div class="flex justify-center items-center">
