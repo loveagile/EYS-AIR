@@ -56,7 +56,27 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue'
+
+const showElement = ref(false)
+
+const handleScroll = () => {
+	console.log("here => ", window.scrollY)
+	if (window.scrollY > 8400) {
+		showElement.value = true
+	} else {
+		showElement.value = false
+	}
+	console.log(showElement.value)
+}
+
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+	window.removeEventListener('scroll', handleScroll)
+})
 const currentPage = ref(1);
 
 const totalPosts = computed(() => {
@@ -76,3 +96,7 @@ const currentIndex = computed(() => {
 	padding: 10px 0;
 }
 </style>
+
+<script setup>
+
+</script>

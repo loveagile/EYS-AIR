@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip">
+	<div class="relative overflow-x-clip" v-if="showElement">
 		<AtomsSectionTitle text="コミュニティ" class="relative z-10" />
 		<NuxtImg src="/img/community/community-bg.webp" loading="lazy"
 			class="absolute w-[95vw] md:w-[495px] h-[80vw] md:h-[400px] left-[-13vw] md:left-[-65px] top-[-24vw] md:top-[-120px]"
@@ -166,3 +166,25 @@
 		</div>
 	</div>
 </template>
+
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const showElement = ref(false)
+
+const handleScroll = () => {
+	if (window.scrollY > 12500) {
+		showElement.value = true
+	} else {
+		showElement.value = false
+	}
+}
+
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+	window.removeEventListener('scroll', handleScroll)
+})
+</script>

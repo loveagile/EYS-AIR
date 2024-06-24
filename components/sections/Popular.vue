@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip mt-[14vw] md:mt-[70px]">
+	<div class="relative overflow-x-clip mt-[14vw] md:mt-[70px]" v-if="showElement">
 		<AtomsSectionTitle text="人気のジャンル/コース" class="relative z-10" />
 		<NuxtImg src="/img/pop/pop-ring.webp" loading="lazy"
 			class="absolute w-[30vw] md:w-[150px] h-[30vw] md:h-[150px] left-[-13vw] md:left-[-65px] top-[19vw] md:top-[95px]"
@@ -62,3 +62,25 @@
 	}
 }
 </style>
+
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const showElement = ref(false)
+
+const handleScroll = () => {
+	if (window.scrollY > 1800) {
+		showElement.value = true
+	} else {
+		showElement.value = false
+	}
+}
+
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+	window.removeEventListener('scroll', handleScroll)
+})
+</script>

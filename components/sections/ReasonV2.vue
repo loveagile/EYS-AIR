@@ -1,5 +1,6 @@
 <template>
-	<div class="relative overflow-x-clip py-[2vw] md:py-[10px] bottom-[37vw] md:bottom-[185px] hover:cursor-pointer">
+	<div class="relative overflow-x-clip py-[2vw] md:py-[10px] bottom-[37vw] md:bottom-[185px] hover:cursor-pointer"
+		v-if="showElement">
 		<div class="relative">
 			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[110vw] md:h-[550px]" alt="reason-bg" />
 			<div class="absolute w-full top-[50%]">
@@ -57,6 +58,26 @@
 </template>
 
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const showElement = ref(false)
+
+const handleScroll = () => {
+	if (window.scrollY > 6800) {
+		showElement.value = true
+	} else {
+		showElement.value = false
+	}
+}
+
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+	window.removeEventListener('scroll', handleScroll)
+})
+
 const currentIndex = useState('currentIndex', () => 0);
 
 const users = ref([

@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip mb-[10vw] md:mb-[50px]">
+	<div class="relative overflow-x-clip mb-[10vw] md:mb-[50px]" v-if="showElement">
 		<div class="flex flex-col justify-center items-center mt-[16vw] md:mt-[80px] relative">
 			<NuxtImg src="/img/community2/v2-logo.webp" loading="lazy"
 				class="w-[65vw] md:w-[325px] h-[13vw] md:h-[65px] mb-[4vw] md:mb-[20px]" alt="v2-logo" />
@@ -76,3 +76,25 @@
 	transform: scale(1);
 }
 </style>
+
+<script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const showElement = ref(false)
+
+const handleScroll = () => {
+	if (window.scrollY > 15000) {
+		showElement.value = true
+	} else {
+		showElement.value = false
+	}
+}
+
+onMounted(() => {
+	window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+	window.removeEventListener('scroll', handleScroll)
+})
+</script>
