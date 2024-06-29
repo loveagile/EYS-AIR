@@ -2,7 +2,7 @@
 	<div class="relative overflow-x-clip px-[2.6vw] md:px-[13px] z-30">
 		<div
 			class="bg-black text-white py-[5vw] md:py-[15px] rounded-t-[1.6vw] md:rounded-t-[8px] relative z-10 flex justify-center items-center">
-			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[2vw] md:px-[10px] italic">12/14</span>
+			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[1vw] md:px-[5px] italic">12/14</span>
 			<span class="number text-[3.8vw] md:text-[19px]">23:59</span><span class="jp ml-[0.6vw] md:ml-[3px]">まで</span>
 			<span
 				class="bg-white text-[#FF6E6E] py-[1vw] md:py-[5px] px-[1vw] md:px-[5px] text-[4.8vw] md:text-[24px] rounded-[1.6vw] md:rounded-[8px] font-medium mx-[0.6vw] md:mx-[3px]">
@@ -26,12 +26,12 @@
 					</div>
 					<div class="flex justify-start items-center">
 						<div
-							class="flex items-center text-white px-[5vw] md:px-[25px] py-[1.6vw] md:py-[8px] ml-[1.6vw] md:ml-[8px] transform skew-x-[-25deg]"
+							class="flex items-center text-white px-[4vw] md:px-[20px] py-[1.6vw] md:py-[8px] ml-[1.6vw] md:ml-[8px] transform skew-x-[-25deg]"
 							:style="{ background: `linear-gradient(45deg, #FF7273, #FFBCDD)` }">
 							<NuxtImg src="/img/tick.webp" loading="lazy"
 								class="w-[12vw] md:w-[60px] h-[11vw] md:h-[55px] transform skew-x-[25deg]" alt="tick" />
 							<span
-								class="font-roboto text-[8.8vw] md:text-[44px] transform skew-x-[25deg] pl-[2vw] md:pl-[10px] italic">2,000</span>
+								class="font-roboto text-[8.8vw] md:text-[44px] transform skew-x-[25deg] px-[2vw] md:px-[10px] italic">2,000</span>
 							<span class="text-[4.8vw] md:text-[24px] transform skew-x-[25deg]">円OFFチケット</span>
 						</div>
 					</div>

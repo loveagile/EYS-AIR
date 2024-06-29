@@ -63,7 +63,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 const showElement = ref(false)
 
 const handleScroll = () => {
-	if (window.scrollY > 6800) {
+	if (window.scrollY > 800) {
 		showElement.value = true
 	} else {
 		showElement.value = false
