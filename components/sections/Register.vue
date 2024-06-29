@@ -1,8 +1,9 @@
 <template>
 	<div class="relative overflow-x-clip px-[2.6vw] md:px-[13px] z-30">
-		<div class="bg-black text-white py-[5vw] md:py-[15px] rounded-t-[1.6vw] md:rounded-t-[8px] relative z-10">
-			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[2.8vw] md:px-[14px]">12/14</span>
-			<span class="number">23:59</span><span class="jp ml-[1vw] md:ml-[5px]">まで</span>
+		<div
+			class="bg-black text-white py-[5vw] md:py-[15px] rounded-t-[1.6vw] md:rounded-t-[8px] relative z-10 flex justify-center items-center">
+			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[2vw] md:px-[10px] italic">12/14</span>
+			<span class="number text-[3.8vw] md:text-[19px]">23:59</span><span class="jp ml-[0.6vw] md:ml-[3px]">まで</span>
 			<span
 				class="bg-white text-[#FF6E6E] py-[1vw] md:py-[5px] px-[1vw] md:px-[5px] text-[4.8vw] md:text-[24px] rounded-[1.6vw] md:rounded-[8px] font-medium">
 				本日締切
@@ -60,6 +61,7 @@
 	font-size: 4vw;
 	font-weight: 700;
 	font-family: "Roboto";
+	font-style: italic;
 }
 
 .jp {
