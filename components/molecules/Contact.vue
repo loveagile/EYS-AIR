@@ -14,7 +14,7 @@
 					<NuxtImg src="/img/footer/freedial.webp" loading="lazy" alt="FreeDial"
 						class="w-[8.4vw] md:w-[42px] h-[5vw] md:h-[25px]" />
 					<span class=" flex flex-col text-[8px] ml-[2vw] md:ml-[10px]">
-						<strong class="text-[4.6vw] md:text-[23px] text-justify">0120-978-900</strong>
+						<strong class="text-[4.4vw] md:text-[22px] text-justify">0120-978-900</strong>
 						<strong class="text-[2.8vw] md:text-[14px] text-justify mt-[0.4vw] md:mt-[2px]">電話受付 : 8:00~25:00</strong>
 					</span>
 				</NuxtLink>
@@ -28,7 +28,7 @@
 						alt="forward" />
 				</NuxtLink>
 				<span
-					class="absolute w-[60%] text-center left-[50%] top-[-3vw] md:top-[-15px] bg-white translate-x-[-50%] text-[#FF6E6E] text-smtiny md:text-tiny px-[1vw] md:px-[5px] py-[0.8vw] md:py-[4px] rounded-full">
+					class="absolute w-[65%] text-center left-[50%] top-[-3vw] md:top-[-15px] bg-white translate-x-[-50%] text-[#FF6E6E] text-smtiny md:text-tiny px-[1vw] md:px-[5px] py-[0.8vw] md:py-[4px] rounded-full">
 					簡易メンバー登録して
 				</span>
 			</div>

@@ -5,7 +5,7 @@
 			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[2vw] md:px-[10px] italic">12/14</span>
 			<span class="number text-[3.8vw] md:text-[19px]">23:59</span><span class="jp ml-[0.6vw] md:ml-[3px]">まで</span>
 			<span
-				class="bg-white text-[#FF6E6E] py-[1vw] md:py-[5px] px-[1vw] md:px-[5px] text-[4.8vw] md:text-[24px] rounded-[1.6vw] md:rounded-[8px] font-medium">
+				class="bg-white text-[#FF6E6E] py-[1vw] md:py-[5px] px-[1vw] md:px-[5px] text-[4.8vw] md:text-[24px] rounded-[1.6vw] md:rounded-[8px] font-medium mx-[0.6vw] md:mx-[3px]">
 				本日締切
 			</span>
 			<span class="jp ml-[1vw] md:ml-[5px]">残り</span><span class="number">10</span>
@@ -19,7 +19,7 @@
 			<div class="relative z-20">
 				<div class="px-[4vw] md:px-[20px] mb-[3vw] md:mb-[15px]">
 					<div class="flex justify-start items-center">
-						<div class="text-white px-[7vw] md:px-[35px] py-[1.6vw] md:py-[8px] transform skew-x-[-25deg]"
+						<div class="text-white px-[6vw] md:px-[30px] py-[1.6vw] md:py-[8px] transform skew-x-[-25deg]"
 							:style="{ background: `linear-gradient(45deg, #FF7273, #FFBCDD)` }">
 							<p class="text-[4.8vw] md:text-[24px] transform skew-x-[25deg]">今なら</p>
 						</div>
@@ -31,7 +31,7 @@
 							<NuxtImg src="/img/tick.webp" loading="lazy"
 								class="w-[12vw] md:w-[60px] h-[11vw] md:h-[55px] transform skew-x-[25deg]" alt="tick" />
 							<span
-								class="font-roboto text-[8.8vw] md:text-[44px] transform skew-x-[25deg] px-[3vw] md:px-[15px]">2,000</span>
+								class="font-roboto text-[8.8vw] md:text-[44px] transform skew-x-[25deg] pl-[2vw] md:pl-[10px] italic">2,000</span>
 							<span class="text-[4.8vw] md:text-[24px] transform skew-x-[25deg]">円OFFチケット</span>
 						</div>
 					</div>
@@ -62,6 +62,7 @@
 	font-weight: 700;
 	font-family: "Roboto";
 	font-style: italic;
+	margin-right: 0.6vw;
 }
 
 .jp {
@@ -71,6 +72,7 @@
 @media (min-width: 500px) {
 	.number {
 		font-size: 20px;
+		margin-right: 3px;
 	}
 
 	.jp {
