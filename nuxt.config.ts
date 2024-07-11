@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'viewport', content: 'width=375' },
         { hid: 'description', name: 'description', content: 'EYSのオンラインアカデミー' }
       ],
       link: [
