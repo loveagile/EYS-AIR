@@ -1,5 +1,5 @@
 <template>
-	<div v-if="showElement">
+	<div>
 		<div class="relative overflow-x-clip py-[2vw] md:py-[10px]">
 			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[110vw] md:h-[550px]" alt="reason-v1-bg" />
 			<p
@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const showElement = ref(false)
@@ -87,4 +87,4 @@ onMounted(() => {
 onUnmounted(() => {
 	window.removeEventListener('scroll', handleScroll)
 })
-</script>
+</script> -->

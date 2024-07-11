@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip" v-if="showElement">
+	<div class="relative overflow-x-clip">
 		<AtomsSectionTitle text="クレイジーさを磨けた" text2="ジャンルのみ開設！" class="relative z-10" />
 		<NuxtImg src="/img/lineup/lineup-bg.webp" loading="lazy"
 			class="absolute w-[92vw] md:w-[460px] h-[80vw] md:h-[400px] left-[-28vw] md:left-[-140px] top-[-20vw] md:top-[-100px]"
@@ -63,7 +63,7 @@ export default {
 }
 </script>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const showElement = ref(false)
@@ -83,4 +83,4 @@ onMounted(() => {
 onUnmounted(() => {
 	window.removeEventListener('scroll', handleScroll)
 })
-</script>
+</script> -->

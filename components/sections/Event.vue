@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip" v-if="showElement">
+	<div class="relative overflow-x-clip">
 		<div class="flex flex-col justify-center items-center mt-[16vw] md:mt-[80px] relative">
 			<NuxtImg src="/img/event/event-logo.webp" loading="lazy" width="100%" height="auto"
 				class="w-[26vw] md:w-[130px] h-[10vw] md:h-[50px] mb-[4vw] md:mb-[20px]" alt="event-logo" />
@@ -36,7 +36,7 @@
 	</div>
 </template>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const showElement = ref(false)
@@ -56,4 +56,4 @@ onMounted(() => {
 onUnmounted(() => {
 	window.removeEventListener('scroll', handleScroll)
 })
-</script>
+</script> -->

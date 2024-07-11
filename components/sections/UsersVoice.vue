@@ -1,5 +1,5 @@
 <template>
-	<div v-if="showElement">
+	<div>
 		<NuxtImg src="/img/voice/voice-tit.webp" loading="lazy"
 			class="w-[70vw] md:w-[350px] h-[26.4vw] md:h-[132px] py-[2vw] md:py-[10px] mx-auto" alt="user's voice" />
 
@@ -51,7 +51,7 @@
 }
 </style>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const showElement = ref(false)
@@ -71,4 +71,4 @@ onMounted(() => {
 onUnmounted(() => {
 	window.removeEventListener('scroll', handleScroll)
 })
-</script>
+</script> -->

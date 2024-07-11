@@ -1,5 +1,5 @@
 <template>
-	<div class="relative overflow-x-clip" v-if="showElement">
+	<div class="relative overflow-x-clip">
 		<AtomsSectionTitle text="新着トピックス" class="relative z-10" />
 		<NuxtImg src="/img/news/news-bg.webp" loading="lazy"
 			class="absolute w-[72vw] md:w-[360px] h-[72vw] md:h-[360px] left-[-15vw] md:left-[-75px] top-[-20vw] md:top-[-100px]"
@@ -61,25 +61,3 @@
 	}
 }
 </style>
-
-<script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
-const showElement = ref(true)
-
-const handleScroll = () => {
-	if (window.scrollY >= 0) {
-		showElement.value = true
-	} else {
-		showElement.value = false
-	}
-}
-
-onMounted(() => {
-	window.addEventListener('scroll', handleScroll)
-})
-
-onUnmounted(() => {
-	window.removeEventListener('scroll', handleScroll)
-})
-</script>
