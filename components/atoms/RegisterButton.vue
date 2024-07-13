@@ -3,7 +3,7 @@
 		<NuxtImg src="/img/user.webp" loading="lazy" class="w-[5.6vw] md:w-[28px] h-[8vw] md:h-[40px]" alt="user" />
 		<div class="text-smbase md:text-base py-[1.8vw] md:py-[9px]">
 			<p class="text-[#FF6E6E]">簡易メンバー登録して</p>
-			<p class="text-[4.8vw] md:text-[24px]">2,000円をGET</p>
+			<p class="text-[4.8vw] md:text-[24px]"><span class="font-roboto">2,000</span>円をGET</p>
 		</div>
 		<NuxtImg src="/img/arrow.webp" loading="lazy" class="w-[5vw] md:w-[25px] h-[1.8vw] md:h-[9px]" alt="arrow" />
 	</NuxtLink>

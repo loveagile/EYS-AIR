@@ -1,7 +1,7 @@
 <template>
 	<div class="p-[4.6vw] md:p-[23px]">
 		<h4 class="text-center text-smsub md:text-sub">
-			EYS air は全国68,000人が通う<br>オンライン総合芸術スクールです！
+			EYS air は全国 <span class="font-roboto">68,000</span> 人が通う<br>オンライン総合芸術スクールです！
 		</h4>
 		<div class="flex justify-center">
 			<div class="border-b-2 my-[4vw] md:my-[20px] border-[#999999] border-solid w-[12vw] md:w-[60px]"></div>

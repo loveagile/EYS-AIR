@@ -18,7 +18,7 @@
 				<div>
 					<span class="inline-block w-[13vw] md:w-[65px]">費用</span>
 					<span>：</span>
-					<span class="px-[1vw] md:px-[5px]">13,800円/月</span>
+					<span class="px-[1vw] md:px-[5px]">円/月</span>
 				</div>
 				<div>
 					<span class="inline-block w-[13vw] md:w-[65px]">回数</span>
