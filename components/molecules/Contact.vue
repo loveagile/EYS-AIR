@@ -14,8 +14,9 @@
 					<NuxtImg src="/img/footer/freedial.webp" loading="lazy" alt="FreeDial"
 						class="w-[8.4vw] md:w-[42px] h-[5vw] md:h-[25px]" />
 					<span class=" flex flex-col text-[8px] ml-[2vw] md:ml-[10px]">
-						<strong class="text-[4.4vw] md:text-[22px] text-justify">0120-978-900</strong>
-						<strong class="text-[2.8vw] md:text-[14px] text-justify mt-[0.4vw] md:mt-[2px]">電話受付 : 8:00~25:00</strong>
+						<strong class="text-[4.4vw] font-roboto md:text-[22px] text-justify">0120-978-900</strong>
+						<strong class="text-[2.8vw] md:text-[14px] text-justify mt-[0.4vw] md:mt-[2px]">電話受付 : <span
+								class="font-roboto">8:00~25:00</span></strong>
 					</span>
 				</NuxtLink>
 			</div>
@@ -23,7 +24,7 @@
 				<NuxtLink to="/"
 					class="reg-btn flex items-center justify-between px-[3vw] md:px-[15px] hover:opacity-75 h-full">
 					<NuxtImg src="/img/user.webp" loading="lazy" class="w-[4.8vw] md:w-[24px] h-[6vw] md:h-[30px]" alt="user" />
-					<p class="text-[4vw] md:text-[20px]">2,000円をGET</p>
+					<p class="text-[4vw] md:text-[20px]"><span class="font-roboto">2,000</span>円をGET</p>
 					<NuxtImg src="/img/footer/forward.webp" loading="lazy" class="w-[2vw] md:w-[10px] h-[3.4vw] md:h-[17px]"
 						alt="forward" />
 				</NuxtLink>
