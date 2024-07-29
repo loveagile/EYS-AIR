@@ -65,8 +65,7 @@
 				class="absolute left-[-14vw] md:left-[-70px] top-[-16vw] md:top-[-80px] w-[32vw] md:w-[160px] h-[32vw] md:h-[160px]"
 				alt="evntrs-ring" />
 
-			<NuxtImg src="/img/community/EVNTR.webp" loading="lazy" class="w-full h-[33vw] md:h-[265px] mt-[6vw] md:mt-[30px]"
-				alt="EVNTR" />
+			<NuxtImg src="/img/community/EVNTR.webp" loading="lazy" class="w-full mt-[6vw] md:mt-[30px]" alt="EVNTR" />
 
 			<div class="p-[3vw] md:p-[15px]">
 				<AtomsTitle text="世代・性別・国籍・仕事...<br>バリエーション豊かな仲間が集います！" startColor="#55CCAA" endColor="#88DD77"

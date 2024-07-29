@@ -3,12 +3,12 @@
 		<div
 			class="bg-black text-white py-[5vw] md:py-[15px] rounded-t-[1.6vw] md:rounded-t-[8px] relative z-10 flex justify-center items-center">
 			<span class="text-[4.8vw] md:text-[24px] font-roboto font-bold px-[1vw] md:px-[5px] italic">12/14</span>
-			<span class="number text-[3.8vw] md:text-[19px]">23:59</span><span class="jp ml-[0.6vw] md:ml-[3px]">まで</span>
+			<span class="number text-[3.8vw] md:text-[19px]">23:59</span><span class="jp">まで</span>
 			<span
 				class="bg-white text-[#FF6E6E] py-[1vw] md:py-[5px] px-[1vw] md:px-[5px] text-[4.8vw] md:text-[24px] rounded-[1.6vw] md:rounded-[8px] font-medium mx-[0.6vw] md:mx-[3px]">
 				本日締切
 			</span>
-			<span class="jp ml-[1vw] md:ml-[5px]">残り</span><span class="number">10</span>
+			<span class="jp">残り</span><span class="number">10</span>
 			<span class="jp">時間</span><span class="number">42</span><span class="jp">分</span>
 			<span class="number">38</span><span class="jp">秒</span>
 		</div>
@@ -66,7 +66,8 @@
 }
 
 .jp {
-	font-size: 2.8vw;
+	font-size: 2.5vw;
+	letter-spacing: 0;
 }
 
 @media (min-width: 500px) {
