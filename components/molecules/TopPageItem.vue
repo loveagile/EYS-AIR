@@ -4,7 +4,7 @@
 		<div class="flex flex-col items-end absolute right-0 top-[90%]">
 			<AtomsCard class="relative w-[95%] rounded[4vw] md:rounded-[20px]">
 				<div
-					class="flex flex-col p-[3vw] md:p-[15px] pr-[34vw] md:pr-[170px] text-smsub md:text-sub rounded[4vw] md:rounded-[20px]">
+					class="flex flex-col px-[3vw] md:px-[15px] py-[4vw] md:py-[20px] pr-[34vw] md:pr-[170px] text-smsub md:text-sub rounded[4vw] md:rounded-[20px]">
 					<p>{{ text }}</p>
 					<span class="text-[#DDDDDD] text-end font-apple text-smlarge md:text-large">{{ nameEn }}</span>
 					<span class="text-smbase md:text-base">{{ nameJp }}</span>

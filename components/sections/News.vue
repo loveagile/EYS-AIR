@@ -1,14 +1,14 @@
 <template>
-	<div class="relative overflow-x-clip">
-		<AtomsSectionTitle text="新着トピックス" class="relative z-10" />
+	<div class="relative overflow-x-clip z-50">
+		<AtomsSectionTitle text="新着トピックス" class="relative z-10 pt-[19vw] md:pt-[95px] pb-[12vw] md:pb-[60px]" />
 		<NuxtImg src="/img/news/news-bg.webp" loading="lazy"
-			class="absolute w-[72vw] md:w-[360px] h-[72vw] md:h-[360px] left-[-15vw] md:left-[-75px] top-[-20vw] md:top-[-100px]"
+			class="absolute w-[78vw] md:w-[390px] h-[78vw] md:h-[390px] left-[-15vw] md:left-[-75px] top-[-16vw] md:top-[-80px]"
 			alt="news" />
 		<NuxtImg src="/img/news/news-ring.webp" loading="lazy"
-			class="absolute w-[30vw] md:w-[150px] h-[30vw] md:h-[150px] right-[-13vw] md:right-[-65px] top-[18vw] md:top-[90px]"
+			class="absolute w-[30vw] md:w-[150px] h-[30vw] md:h-[150px] right-[-10vw] md:right-[-50px] top-[26vw] md:top-[130px]"
 			alt="news-ring" />
 		<div>
-			<Swiper class="news-swiper" :slides-per-view="1.25" :effect="'creative'" :creative-effect="{
+			<Swiper class="news-swiper" :slides-per-view="1.3" :effect="'creative'" :creative-effect="{
 				prev: {
 					translate: ['-100%', 0, 0],
 				},
@@ -45,7 +45,9 @@
 			<AtomsCard class="my-[5.4vw] md:my-[27px]">
 				<OrganismsEYSDesc />
 			</AtomsCard>
-			<OrganismsEYSAll />
+			<AtomsCard>
+				<OrganismsEYSAll />
+			</AtomsCard>
 		</div>
 	</div>
 </template>

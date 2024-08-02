@@ -1,6 +1,6 @@
 <template>
 	<div class="relative overflow-x-clip mb-[10vw] md:mb-[50px]">
-		<div class="flex flex-col justify-center items-center mt-[16vw] md:mt-[80px] relative">
+		<div class="flex flex-col justify-center items-center mt-[8vw] md:mt-[40px] relative">
 			<NuxtImg src="/img/community2/v2-logo.webp" loading="lazy"
 				class="w-[65vw] md:w-[325px] h-[13vw] md:h-[65px] mb-[4vw] md:mb-[20px]" alt="v2-logo" />
 			<div class="flex justify-center items-end">
@@ -16,12 +16,12 @@
 				alt="v2-ring" />
 
 			<NuxtImg src="/img/community2/v2-bg.webp" loading="lazy"
-				class="w-full mt-[6vw] md:mt-[30px] h-[54vw] md:h-[270px]" alt="v2-bg" />
+				class="w-full mt-[3.6vw] md:mt-[18px] h-[54vw] md:h-[270px]" alt="v2-bg" />
 
 			<div class="p-[3vw] md:p-[15px]">
 				<AtomsTitle text="趣味やライフイベントに合わせた、<br>多彩なコミュニティをご用意しています！" startColor="#55CCAA" endColor="#88DD77"
 					class="relative top-[-10vw] md:top-[-50px]" />
-				<div class="flex flex-wrap justify-between gap-y-[2.4vw] md:gap-y-[12px] relative top-[-5vw] md:top-[-25px]">
+				<div class="flex flex-wrap justify-between gap-y-[2.4vw] md:gap-y-[12px] relative top-[-2.4vw] md:top-[-12px]">
 					<MoleculesComCard img="/img/community2/set1.webp" class="w-[48%]" />
 					<MoleculesComCard img="/img/community2/set2.webp" class="w-[48%] relative z-10" />
 					<NuxtImg src="/img/event/event-ring.webp" loading="lazy" width="100%" height="auto"
@@ -30,8 +30,8 @@
 				</div>
 			</div>
 
-			<div class="p-[3vw] md:p-[15px] mt-[50px]">
-				<AtomsTitle text="例えば、<br>こんなコミュニティ！" startColor="#55CCAA" endColor="#88DD77"
+			<div class="p-[1.4vw] md:p-[7px] mt-[7vw] md:mt-[35px]">
+				<AtomsHeadTitle text="例えば、<br>こんなコミュニティ！" startColor="#55CCAA" endColor="#88DD77"
 					class="relative top-[-10vw] md:top-[-50px]" />
 			</div>
 			<div class="w-full relative bottom-[6vw] md:bottom-[30px]">
@@ -61,7 +61,7 @@
 			</div>
 
 			<div class="flex justify-center w-[50%] mx-auto">
-				<AtomsButton btnText="コミュニティ一覧" linkUrl="/" imgUrl="/img/arrow.webp" />
+				<AtomsComButton btnText="コミュニティ一覧" linkUrl="/" imgUrl="/img/arrow.webp" />
 			</div>
 		</div>
 	</div>

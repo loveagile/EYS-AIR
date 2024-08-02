@@ -43,9 +43,9 @@
 			</div>
 			<div class="border-2 border-solid border-[#F6F6F6] my-[1.2vw] md:my-[6px]">
 				<p :style="{ background: `linear-gradient(45deg, #FFBB55, #FFCCBB)` }"
-					class="text-smbase md:text-base py-[0.8vw] md:py-[4px] text-center text-white">クレイジー特典
+					class="text-smbase md:text-base py-[0.v4w] md:py-[2px] text-center text-white">クレイジー特典
 				</p>
-				<div class="flex flex-row items-center w-[100%] p-[2.6vw] md:p-[13px]">
+				<div class="flex flex-row items-center w-[100%] px-[2.2vw] md:px-[11px] py-[1vw] md:py-[5px]">
 					<NuxtImg :src="benefitImg" loading="lazy" alt="bft-Img"
 						class="w-[10.6vw] md:w-[53px] h-[10.6vw] md:h-[53px]" />
 					<span class="block text-smbase md:text-base text-[#FFBB55] ml-[2.4vw] md:ml-[12px]">{{ benefitTxt }}</span>

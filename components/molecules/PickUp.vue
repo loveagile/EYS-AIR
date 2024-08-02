@@ -7,7 +7,7 @@
 			<span>{{ school }}</span>
 		</div>
 	</div>
-	<p class="text-smmini md:text-mini">{{ desc }}</p>
+	<p class="text-smmini md:text-mini tracking-[-0.2vw] md:tracking-[-1px]">{{ desc }}</p>
 	<div class="flex justify-start items-center w-full mt-[6vw] md:mt-[30px]">
 		<NuxtImg src="/img/yen.webp" loading="lazy" class="w-[4vw] md:w-[20px] h-[4vw] md:h-[20px]" alt="yen" />
 		<span class="ml-[2vw] md:ml-[10px] text-smbase md:text-base">{{ price }}</span>

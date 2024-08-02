@@ -1,12 +1,12 @@
 <template>
 	<div>
-		<div class="relative overflow-x-clip py-[2vw] md:py-[10px]">
-			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[110vw] md:h-[550px]" alt="reason-v1-bg" />
+		<div class="relative overflow-x-clip py-[2vw] md:py-[10px] mt-[2vw] md:mt-[10px]">
+			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[100vw] md:h-[500px]" alt="reason-v1-bg" />
 			<p
-				class="text-center absolute z-10 left-0 top-[33%] text-[4.2vw] md:text-[21px] w-full leading-[5vw] md:leading-[25px]">
+				class="text-center absolute z-10 left-0 top-[34%] text-[4.2vw] md:text-[21px] w-full leading-[5vw] md:leading-[25px]">
 				オンラインでも<br>リアルのレッスンと変わらない<br>「仕掛け」があります！
 			</p>
-			<div class="absolute w-full top-[55%]">
+			<div class="absolute w-full top-[60%]">
 				<MoleculesReasonTitle number="01" text="全ジャンル<br>クレイジー特典プレゼント！" />
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 <template>
-	<NuxtLink :to="linkUrl" class="button py-[0.8vw] md:py-[4px] block w-full">
+	<NuxtLink :to="linkUrl" class="button py-[2vw] md:py-[10px] block w-full">
 		<span class="text-smbase md:text-base py-[1.8vw] md:py-[9px]">{{ btnText }}</span>
 		<NuxtImg class="btnImg w-[4.4vw] md:w-[22px] h-[1.6vw] md:h-[8px]" :src="imgUrl" loading="lazy" alt="arrow" />
 	</NuxtLink>

@@ -1,8 +1,9 @@
 <template>
 	<div class="relative overflow-x-clip">
-		<AtomsSectionTitle text="クレイジーさを磨けた" text2="ジャンルのみ開設！" class="relative z-10" />
+		<AtomsSectionTitle text="クレイジーさを磨けた" text2="ジャンルのみ開設！"
+			class="relative z-10 pt-[18.4vw] md:pt-[82px] pb-[5vw] md:pb-[25px]" />
 		<NuxtImg src="/img/lineup/lineup-bg.webp" loading="lazy"
-			class="absolute w-[92vw] md:w-[460px] h-[80vw] md:h-[400px] left-[-28vw] md:left-[-140px] top-[-20vw] md:top-[-100px]"
+			class="absolute w-[92vw] md:w-[460px] h-[80vw] md:h-[400px] left-[-28vw] md:left-[-140px] top-[-14vw] md:top-[-70px]"
 			alt="lineup" />
 		<div v-for="(feature, index) in features" :key="index">
 			<OrganismsLineFeature :index="index" :titTxt="feature.titTxt" :startColor="feature.startColor"

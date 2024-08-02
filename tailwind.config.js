@@ -10,14 +10,14 @@ export default {
         tiny: ["12px", "20px"],
         smtiny: ["2.4vw", "4vw"],
 
-        mini: ["14px", "24px"],
-        smmini: ["2.8vw", "4.8vw"],
+        mini: ["14px", "23px"],
+        smmini: ["2.8vw", "4.6vw"],
 
         base: ["16px", "28px"],
         smbase: ["3.2vw", "5.5vw"],
 
-        sub: ["18px", "35px"],
-        smsub: ["3.6vw", "7vw"],
+        sub: ["18px", "30px"],
+        smsub: ["3.6vw", "6vw"],
 
         large: ["27px", "40px"],
         smlarge: ["5.4vw", "8vw"],

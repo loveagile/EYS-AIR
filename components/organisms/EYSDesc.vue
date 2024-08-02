@@ -16,7 +16,7 @@
 			</span>
 		</div>
 
-		<NuxtImg src="/img/news/graph.webp" loading="lazy" class="w-[80vw] md:w-[400px] h-[64vw] md:h-[320px]"
+		<NuxtImg src="/img/news/graph.webp" loading="lazy" class="w-[80vw] md:w-[400px] h-[60vw] md:h-[300px]"
 			alt="graph" />
 		<p class="text-smbase md:text-base">
 			オンラインレッスンを独自の視点で再構築し、立ち上げ依頼、圧倒的な会員数の伸びを誇っています。

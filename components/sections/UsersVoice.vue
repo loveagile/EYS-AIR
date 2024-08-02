@@ -1,9 +1,9 @@
 <template>
 	<div>
 		<NuxtImg src="/img/voice/voice-tit.webp" loading="lazy"
-			class="w-[70vw] md:w-[350px] h-[26.4vw] md:h-[132px] py-[2vw] md:py-[10px] mx-auto" alt="user's voice" />
+			class="w-[70vw] md:w-[350px] h-[20.4vw] md:h-[102px]  mx-auto" alt="user's voice" />
 
-		<Swiper class="voice-swiper" :slides-per-view="1.5" :effect="'creative'" :creative-effect="{
+		<Swiper class="voice-swiper" :slides-per-view="1.6" :effect="'creative'" :creative-effect="{
 			prev: {
 				translate: ['-100%', 0, 0],
 			},
@@ -32,7 +32,7 @@
 	padding-bottom: 30px;
 	position: relative;
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 32px;
 	z-index: 10;
 }
 

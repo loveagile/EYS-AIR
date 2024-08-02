@@ -2,7 +2,7 @@
 	<div class="flex flex-col justify-center items-center relative">
 		<div class="text-white px-[8vw] md:px-[40px] py-[1.6vw] md:py-[8px] transform skew-x-[-25deg]"
 			:style="{ background: `linear-gradient(45deg, ${startColor}, ${endColor})` }">
-			<p class="text-[3.8vw] text-center md:text-[19px] leading-[5vw] md:leading-[25px] transform skew-x-[25deg]"
+			<p class="text-[3.8vw] text-center md:text-[19px] leading-[7vw] md:leading-[35px] px-[2vw] md:px-[10px] transform skew-x-[25deg]"
 				v-html="text">
 			</p>
 		</div>

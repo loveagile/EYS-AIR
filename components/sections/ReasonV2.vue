@@ -1,7 +1,7 @@
 <template>
 	<div class="relative overflow-x-clip py-[2vw] md:py-[10px] bottom-[37vw] md:bottom-[185px] hover:cursor-pointer">
 		<div class="relative">
-			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[110vw] md:h-[550px]" alt="reason-bg" />
+			<NuxtImg src="/img/reason/v1/bg.webp" loading="lazy" class="w-full h-[102vw] md:h-[510px]" alt="reason-bg" />
 			<div class="absolute w-full top-[50%]">
 				<MoleculesReasonTitle number="02" text="進化を続ける<br>オンラインシステム" />
 			</div>
@@ -13,20 +13,20 @@
 			</div>
 		</div>
 
-		<div class="px-[5.4vw] md:px-[27px] relative top-[-12vw] md:top-[-60px]">
-			<div class="absolute w-full top-[-10vw] md:top-[-50px] left-[0]">
-				<AtomsTitle text="自宅がスタジオに<br>早変わり！" startColor="#7799FF" endColor="#77DDFF" />
+		<div class="px-[5.4vw] md:px-[27px] relative top-[-29.6vw] md:top-[-148px]">
+			<div class="absolute w-full top-[-14vw] md:top-[-70px] left-[0]">
+				<AtomsHeadTitle text="自宅がスタジオに<br>早変わり！" startColor="#7799FF" endColor="#77DDFF" />
 			</div>
-			<NuxtImg src="/img/reason/v2/home.webp" loading="lazy" class="mt-[9vw] md:mt-45px w-full h-[67vw] md:h-[335px]"
-				alt="v2-home" />
+			<NuxtImg src="/img/reason/v2/home.webp" loading="lazy"
+				class="mt-[36vw] md:mt-[180px] w-full h-[67vw] md:h-[335px]" alt="v2-home" />
 			<p class="text-white inline-block py-[1.6vw] md:py-[8px] pl-[3vw] md:pl-[15px] pr-[10vw] md:pr-[50px] absolute bottom-[4.8vw] md:bottom-[24px] text-[4vw] md:text-[20px]"
 				:style="{ background: `linear-gradient(45deg, #7799FF, #77DDFF)` }">
 				タップひとつで家が教室に！</p>
 		</div>
 
-		<div class="px-[5.4vw] md:px-[27px] mt-[2vw] md:mt-[10px] relative z-30">
+		<div class="px-[5.4vw] md:px-[27px] mt-[2vw] md:mt-[10px] relative z-30 top-[-20vw] md:top-[-100px]">
 			<NuxtImg src="/img/reason/v2/bg.webp" loading="lazy"
-				class="w-full h-[291vw] md:h-[1455px] absolute top-0 left-0 px-[5.4vw] md:px-[27px]" alt="v2-bg" />
+				class="w-full h-[291vw] md:h-[1460px] absolute top-0 left-0 px-[5.4vw] md:px-[27px]" alt="v2-bg" />
 			<div class="absolute left-[4%] top-0 flex justify-center flex-col translate-y-[-50%] ml-[5.4vw] md:ml-[27px]">
 				<NuxtImg src="/img/reason/v2/but.webp" loading="lazy" class="w-[24vw] md:w-[120px] h-[20vw] md:h-[100px]"
 					alt="but-img" />
@@ -44,13 +44,13 @@
 			</div>
 
 			<NuxtImg src="/img/reason/v2/catch.webp" loading="lazy"
-				class="relative z-10 w-[64vw] md:w-[320px] h-[26vw] md:h-[130px] mx-auto mt-[22vw] md:mt-[110px]"
+				class="relative z-10 w-[64vw] md:w-[320px] h-[26vw] md:h-[130px] mx-auto mt-[18vw] md:mt-[90px]"
 				alt="catch-img" />
 
 			<OrganismsReasonFeatureV2 text="音楽に最適化した<br>オンラインシステム" img="/img/reason/v2/feature1.webp"
 				desc="先生と一緒にリアルタタイムで<br>楽譜を見ながらレッスンできます！" />
 
-			<OrganismsReasonFeatureV2 text="手元と引きのW表示！<br>2画面で分かりやすい！" img="/img/reason/v2/feature1.webp"
+			<OrganismsReasonFeatureV2 text="手元と引きのW表示！<br>2画面で分かりやすい！" img="/img/reason/v2/feature2.webp"
 				desc="先生側も生徒側も2画面にできるから、<br>細かな指の動きまでチェックしてもらえます！" />
 		</div>
 	</div>

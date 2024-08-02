@@ -1,7 +1,7 @@
 <template>
 	<AtomsCard class="flex w-full rounded-[4vw] md:rounded-[20px]">
-		<NuxtImg :src="img" loading="lazy" class="w-[35%] h-full" alt="article" />
-		<div class="w-[65%] flex flex-col p-[3vw] md:p-[15px]">
+		<NuxtImg :src="img" loading="lazy" class="w-[35%] h-[34vw] md:h-[170px]" alt="article" />
+		<div class="w-[65%] flex flex-col p-[2vw] md:p-[10px]">
 			<div class="flex w-full justify-between text-[#999999] text-smtiny md:text-tiny">
 				<span>2019/08/06</span>
 				<span>石田 一帆</span>

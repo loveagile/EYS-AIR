@@ -2,9 +2,9 @@
 	<div class="relative flex flex-col items-center">
 		<NuxtImg :src="userImg" loading="lazy" class="w-[25vw] md:w-[125px] h-[27vw] md:h-[135px]" alt="user-img" />
 	</div>
-	<div class="bg-white flex flex-col justify-center items-center py-[1vw] md:py-[5px] w-full"
+	<div class="bg-white flex flex-col justify-center items-center py-[2vw] md:py-[10px] w-full"
 		:class="[isClicked ? 'active' : '']">
-		<p class="text-[4vw] md:text-[20px]">{{ text }}</p>
+		<p class="text-[5vw] md:text-[25px]">{{ text }}</p>
 		<span class="text-smmini md:text-mini">の場合</span>
 	</div>
 	<div :class="[isClicked ? 'triangle border-[2vw] md:border-[10px] border-b-[0]' : '']"></div>

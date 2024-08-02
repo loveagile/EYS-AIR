@@ -1,32 +1,33 @@
 <template>
 	<div class="flex mt-[14.4vw] md:mt-[72px] w-full text-smbase md:text-base bg-white relative z-50">
 		<NuxtLink @click="() => index = 0" to="/"
-			class="w-1/5 flex flex-col items-center justify-center py[3vw] md:py-[15px]" :class="index === 0 ? 'active' : ''">
+			class="w-1/5 flex flex-col items-center justify-center py-[2vw] md:py-[10px]"
+			:class="index === 0 ? 'active' : ''">
 			<NuxtImg src="/img/top/icon_home.webp" loading="lazy" class="w-[4vw] md:w-[20px] h-[4vw] md:h-[20px]"
 				alt="Home" />
 		</NuxtLink>
 
-		<NuxtLink @click="() => index = 1" to="/" class="w-1/5 flex justify-center py-[3vw] md:py-[15px]"
+		<NuxtLink @click="() => index = 1" to="/" class="w-1/5 flex justify-center py-[2vw] md:py-[10px]"
 			:class="index === 1 ? 'active' : ''">
 			<span class="block w-full text-center border-l-[0.4vw] md:border-l-[2px] border-[#DDDDDD]">音楽</span>
 		</NuxtLink>
 
-		<NuxtLink @click="() => index = 2" to="/" class="w-1/5 flex justify-center py-[3vw] md:py-[15px]"
+		<NuxtLink @click="() => index = 2" to="/" class="w-1/5 flex justify-center py-[2vw] md:py-[10px]"
 			:class="index === 2 ? 'active' : ''">
 			<span class="block w-full text-center border-l-[0.4vw] md:border-l-[2px] border-[#DDDDDD]">ワイン</span>
 		</NuxtLink>
 
-		<NuxtLink @click="() => index = 3" to="/" class="w-1/5 flex justify-center py-[3vw] md:py-[15px]"
+		<NuxtLink @click="() => index = 3" to="/" class="w-1/5 flex justify-center py-[2vw] md:py-[10px]"
 			:class="index === 3 ? 'active' : ''">
 			<span class="block w-full text-center border-l-[0.4vw] md:border-l-[2px] border-[#DDDDDD]">茶道</span>
 		</NuxtLink>
 
-		<NuxtLink @click="() => index = 4" to="/" class="w-1/5 flex justify-center py-[3vw] md:py-[15px]"
+		<NuxtLink @click="() => index = 4" to="/" class="w-1/5 flex justify-center py-[2vw] md:py-[10px]"
 			:class="index === 4 ? 'active' : ''">
 			<span class="block w-full text-center border-l-[0.4vw] md:border-l-[2px] border-[#DDDDDD]">陶芸</span>
 		</NuxtLink>
 	</div>
-	<div class="relative mb-[4vw] md:mb-[20px]">
+	<div class="relative mb-[6vw] md:mb-[30px]">
 		<NuxtImg src="/img/top/FV.webp" class="w-full h-[160vw] md:h-[800px] absolute top-0 left-0" alt="FV_bg" />
 
 		<div class="relative z-10 flex flex-col items-center pt-[6vw] md:pt-[30px]">
@@ -57,7 +58,7 @@
 					alt="wine-ring" />
 			</div>
 		</div>
-		<div class="flex justify-between mt-[-3vw] md:mt-[-15px] px-[3vw] md:px-[15px]">
+		<div class="flex justify-between mt-[-4vw] md:mt-[-20px] px-[3vw] md:px-[15px]">
 			<div class="relative">
 				<MoleculesFVIteam tit="茶道" startColor="#99DD77" endColor="#EEEE55" img="/img/top/tea.webp" txt="茶釜・畳"
 					class="relative z-10" />

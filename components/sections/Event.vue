@@ -1,6 +1,6 @@
 <template>
 	<div class="relative overflow-x-clip">
-		<div class="flex flex-col justify-center items-center mt-[16vw] md:mt-[80px] relative">
+		<div class="flex flex-col justify-center items-center mt-[11.4vw] md:mt-[57px] relative">
 			<NuxtImg src="/img/event/event-logo.webp" loading="lazy" width="100%" height="auto"
 				class="w-[26vw] md:w-[130px] h-[10vw] md:h-[50px] mb-[4vw] md:mb-[20px]" alt="event-logo" />
 			<div class="flex justify-center items-end">
@@ -19,9 +19,9 @@
 				alt="evnet-bg" />
 
 			<div class="p-[3vw] md:p-[15px]">
-				<AtomsTitle text="趣味を通じて自然に仲良くなれる、<br>様々なイベントを開催しています！" startColor="#55CCAA" endColor="#88DD77"
-					class="relative top-[-10vw] md:top-[-50px]" />
-				<div class="flex flex-wrap justify-between gap-y-[2.4vw] md:gap-y-[12px] relative top-[-5vw] md:top-[-25px]">
+				<AtomsHeadTitle text="趣味を通じて自然に仲良くなれる、<br>様々なイベントを開催しています！" startColor="#55CCAA" endColor="#88DD77"
+					class="relative top-[-12vw] md:top-[-60px]" />
+				<div class="flex flex-wrap justify-between gap-y-[2.4vw] md:gap-y-[12px] relative top-[-7vw] md:top-[-35px]">
 					<MoleculesEVNTRCard img="/img/event/event1.webp" tit="料理合コン" class="w-[32%]" />
 					<MoleculesEVNTRCard img="/img/event/event2.webp" tit="ゴルフ合コン" class="w-[32%]" />
 					<MoleculesEVNTRCard img="/img/event/event3.webp" tit="ワイン合コン" class="w-[32%]" />
@@ -29,7 +29,7 @@
 			</div>
 
 			<div class="flex justify-center w-[50%] mx-auto">
-				<AtomsButton btnText="スク婚ページへ" linkUrl="/" imgUrl="/img/arrow.webp" />
+				<AtomsComButton btnText="スク婚ページへ" linkUrl="/" imgUrl="/img/arrow.webp" />
 			</div>
 		</div>
 

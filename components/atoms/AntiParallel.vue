@@ -1,6 +1,6 @@
 <template>
 	<div class="flex justify-center items-center">
-		<div class="outline text-white pl-[2.6vw] md:pl-[13px] py-[1.8vw] md:py-[9px] pr-[4vw] md:pr-[20px]"
+		<div class="outline text-white pl-[2.6vw] md:pl-[13px] py-[1vw] md:py-[5px] pr-[4vw] md:pr-[20px]"
 			:style="{ background: `linear-gradient(to right, ${startColor}, ${endColor})` }">
 			<p class="text-smmini md:text-mini">{{ text }}</p>
 		</div>

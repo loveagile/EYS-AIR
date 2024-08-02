@@ -5,11 +5,12 @@
       alt="bottom-ring" />
     <div class="triangle ml-[32vw] md:ml-[160px] mt-[3vw] md:mt-[15px]"></div>
     <div class="relative overflow-x-clip" :style="{ background: `linear-gradient(to right, #FEEACE, #FFEEE3)` }">
-      <div class="p-[5.4vw] md:p-[27px]">
+      <div class="p-[5.4vw] md:p-[27px] pt-[1vw] md:pt-[5px]">
         <div class="flex justify-center items-end mt-[2vw] md:mt-[10px]">
           <NuxtImg src="/img/backslash.webp" loading="lazy" class="w-[4.4vw] md:w-[22px] h-[7vw] md:h-[35px]"
             alt="backslash" />
-          <h3 class="text-smsub md:text-sub text-center mx-[5vw] md:mx-[25px] font-medium">
+          <h3
+            class="text-[4.2vw] md:text-[21px] leading-[6vw] md:leading-[30px] text-center mx-[5vw] md:mx-[25px] font-medium">
             具体的なクラスを<br>覗いてみよう！
           </h3>
           <NuxtImg src="/img/slash.webp" loading="lazy" class="w-[4.4vw] md:w-[22px] h-[7vw] md:h-[35px]" alt="slash" />
@@ -71,7 +72,7 @@
     width: 0px;
     height: 0px;
     border-style: solid;
-    border-width: 0 20px 40px 20px;
+    border-width: 0 20px 35px 20px;
     border-color: transparent transparent #FEEACE transparent;
     transform: rotate(0deg);
   }

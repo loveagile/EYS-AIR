@@ -7,7 +7,7 @@
 			<div class="border-b-2 my-[4vw] md:my-[20px] border-[#999999] border-solid w-[12vw] md:w-[60px]"></div>
 		</div>
 
-		<AtomsTitle text="男女比" startColor="#77DDFF" endColor="#7799FF" class="my-[2vw] md:my-[10px]" />
+		<AtomsTitle text="男女比" startColor="#77DDFF" endColor="#7799FF" class="mt-[1vw] md:mt-[5px] mb-[2vw] md:mb-[10px]" />
 
 		<h4 class="text-center text-smsub md:text-sub text-blue">
 			男性にも女性にも、<br>お楽しみいただいています！

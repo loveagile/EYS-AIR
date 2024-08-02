@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col justify-between items-center">
 		<div class="relative top-[15px]">
-			<AtomsTitle :text="text" startColor="#55CCAA" endColor="#88DD77" />
+			<AtomsHeadTitle :text="text" startColor="#55CCAA" endColor="#88DD77" />
 		</div>
 		<AtomsCard class="rounded-full">
 			<div

@@ -2,7 +2,7 @@
 	<div class="flex flex-col justify-center items-center mb-[3vw] md:mb-[15px] relative">
 		<AtomsReasonParallel :text="titTxt" :startColor="startColor" :endColor="endColor" />
 		<span class="text-smmini md:text-mini pt-[3vw] md:pt-[15px]">{{ subTxt }}</span>
-		<p class="text-smsub md:text-sub leading-[5vw] md:leading-[25px] text-center pb-[4vw] md:pb-[20px]" v-html="text">
+		<p class="text-smsub md:text-sub leading-[5vw] md:leading-[25px] text-center pb-[2.4vw] md:pb-[12px]" v-html="text">
 		</p>
 		<NuxtImg :src="imgUrl" loading="lazy" class="w-[95%] h-[101vw] md:h-[505px]" alt="reason-feature" />
 		<a :href="linkUrl"

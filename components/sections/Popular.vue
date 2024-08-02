@@ -1,11 +1,11 @@
 <template>
-	<div class="relative overflow-x-clip mt-[14vw] md:mt-[70px]">
-		<AtomsSectionTitle text="人気のジャンル/コース" class="relative z-10" />
+	<div class="relative overflow-x-clip mt-[4vw] md:mt-[20px]">
+		<AtomsSectionTitle text="人気のジャンル/コース" class="relative z-10 pt-[16vw] md:pt-[80px] pb-[10vw] md:pb-[50px]" />
 		<NuxtImg src="/img/pop/pop-ring.webp" loading="lazy"
-			class="absolute w-[30vw] md:w-[150px] h-[30vw] md:h-[150px] left-[-13vw] md:left-[-65px] top-[19vw] md:top-[95px]"
+			class="absolute w-[30vw] md:w-[150px] h-[30vw] md:h-[150px] left-[-13vw] md:left-[-65px] top-[21vw] md:top-[105px]"
 			alt="pop-ring" />
 		<NuxtImg src="/img/pop/pop-bg.webp" loading="lazy"
-			class="absolute w-[98vw] md:w-[490px] h-[80vw] md:h-[400px] right-[-18vw] md:right-[-80px] top-[-18vw] md:top-[-90px]"
+			class="absolute w-[98vw] md:w-[490px] h-[80vw] md:h-[400px] right-[-18vw] md:right-[-80px] top-[-15vw] md:top-[-75px]"
 			alt="popular" />
 		<div class="swiper">
 			<Swiper class="pop-swiper" :slides-per-view="1.25" :effect="'creative'" :creative-effect="{
@@ -46,7 +46,7 @@
 			</Swiper>
 		</div>
 
-		<OrganismsEYSWatch class="mb-[8vw] md:mb-[40px]" />
+		<OrganismsEYSWatch class="mb-[7vw] md:mb-[35px]" />
 	</div>
 </template>
 
