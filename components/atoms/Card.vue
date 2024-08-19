@@ -6,7 +6,7 @@
 
 <style scoped>
 .card-outline {
-	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.09);
+	box-shadow: 5px 8px 5px 0 rgba(0, 0, 0, 0.05);
 	border: none;
 }
 </style>

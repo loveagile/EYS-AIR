@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<NuxtImg src="/img/voice/voice-tit.webp" loading="lazy"
-			class="w-[70vw] md:w-[350px] h-[20.4vw] md:h-[102px]  mx-auto" alt="user's voice" />
+		<NuxtImg src="/img/voice/voice-tit.webp" loading="lazy" class="w-[70vw] md:w-[350px] h-[23vw] md:h-[115px]  mx-auto"
+			alt="user's voice" />
 
 		<Swiper class="voice-swiper" :slides-per-view="1.6" :effect="'creative'" :creative-effect="{
 			prev: {

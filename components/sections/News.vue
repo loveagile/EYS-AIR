@@ -17,35 +17,35 @@
 				},
 			}">
 				<SwiperSlide>
-					<AtomsCard class="w-[65vw] md:w-[325px]">
+					<AtomsCard class="w-[65vw] md:w-[325px] rounded-md">
 						<OrganismsNewsCard text="新規OPEN" startColor="#FF4455" endColor="#FF99EE" />
 					</AtomsCard>
 				</SwiperSlide>
 
 				<SwiperSlide>
-					<AtomsCard class="w-[65vw] md:w-[325px]">
+					<AtomsCard class="w-[65vw] md:w-[325px] rounded-md">
 						<OrganismsNewsCard text="発表会 [ユビフェス]" startColor="#00CCEE" endColor="#44EECC" />
 					</AtomsCard>
 				</SwiperSlide>
 
 				<SwiperSlide>
-					<AtomsCard class="w-[65vw] md:w-[325px]">
+					<AtomsCard class="w-[65vw] md:w-[325px] rounded-md">
 						<OrganismsNewsCard text="イベント" startColor="#00BBBB" endColor="#66EEBB" />
 					</AtomsCard>
 				</SwiperSlide>
 
 				<SwiperSlide>
-					<AtomsCard class="w-[65vw] md:w-[325px]">
+					<AtomsCard class="w-[65vw] md:w-[325px] rounded-md">
 						<OrganismsNewsCard text="バンド" startColor="#0088EE" endColor="#66CCFF" />
 					</AtomsCard>
 				</SwiperSlide>
 			</Swiper>
 		</div>
 		<div class="px-[5.4vw] md:px-[27px]">
-			<AtomsCard class="my-[5.4vw] md:my-[27px]">
+			<AtomsCard class="my-[5.4vw] md:my-[27px] rounded-md">
 				<OrganismsEYSDesc />
 			</AtomsCard>
-			<AtomsCard>
+			<AtomsCard class="rounded-md">
 				<OrganismsEYSAll />
 			</AtomsCard>
 		</div>

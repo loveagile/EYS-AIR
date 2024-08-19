@@ -18,7 +18,7 @@
 				<AtomsHeadTitle text="自宅がスタジオに<br>早変わり！" startColor="#7799FF" endColor="#77DDFF" />
 			</div>
 			<NuxtImg src="/img/reason/v2/home.webp" loading="lazy"
-				class="mt-[36vw] md:mt-[180px] w-full h-[67vw] md:h-[335px]" alt="v2-home" />
+				class="mt-[33.4vw] md:mt-[167px] w-full h-[67vw] md:h-[335px] rounded-md" alt="v2-home" />
 			<p class="text-white inline-block py-[1.6vw] md:py-[8px] pl-[3vw] md:pl-[15px] pr-[10vw] md:pr-[50px] absolute bottom-[4.8vw] md:bottom-[24px] text-[4vw] md:text-[20px]"
 				:style="{ background: `linear-gradient(45deg, #7799FF, #77DDFF)` }">
 				タップひとつで家が教室に！</p>

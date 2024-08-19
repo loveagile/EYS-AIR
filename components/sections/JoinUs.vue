@@ -17,7 +17,7 @@
 			<NuxtImg src="/img/slash.webp" loading="lazy" class="w-[4.4vw] md:w-[22px] h-[7vw] md:h-[35px]" alt="slash" />
 		</div>
 
-		<div class="px-[5.4vw] md:px-[27px] relative">
+		<div class="px-[5.4vw] md:px-[27px] mt-[4.4vw] md:mt-[22px] relative">
 			<MoleculesJoinStep step="STEP 1" , tit='簡易メンバー登録して、<br>入会金2,000円OFFチケットをゲット'
 				desc="カンタンな登録情報を入力して、<br>アカウント作成するだけ！" img="/img/joinus/join1.webp" class="relative z-10" />
 			<MoleculesJoinStep step="STEP 2" , tit='豊富なジャンルから、<br>気になるコースを予約' desc="音楽・ワイン・茶道・陶芸...<br>お好きなジャンルを自由にチョイス！"
@@ -29,7 +29,7 @@
 				alt="join-ring" />
 		</div>
 
-		<div class="px-[5.4vw] md:px-[27px] mt-[25vw] md:mt-[125px]">
+		<div class="px-[5.4vw] md:px-[27px] mt-[23.4vw] md:mt-[117px]">
 			<NuxtImg src="/img/joinus/logo.webp" loading="lazy" class="w-full h-[20vw] md:h-[100px]" alt="join-logo" />
 			<OrganismsPageItem :index="currentIndex" :totalPosts="totalPosts" />
 			<div class="pagination flex justify-center mt-[19vw] md:mt-[95px]">
@@ -45,7 +45,7 @@
 			<AtomsArticle img="/img/joinus/article/03.webp" />
 		</div>
 
-		<div class="px-[5.4vw] md:px-[27px] mt-[10vw] md:mt-[50px] flex flex-col gap-y-[5vw] md:gap-y-[23px]">
+		<div class="px-[5.4vw] md:px-[27px] mt-[11vw] md:mt-[55px] flex flex-col gap-y-[5vw] md:gap-y-[23px]">
 			<AtomsArticleTitle img="/img/joinus/player/title.webp" txt="人気のプレイヤー" class="mb-[2vw] md:mb-[10px]" />
 			<AtomsPlayer img="/img/joinus/player/01.webp" />
 			<AtomsPlayer img="/img/joinus/player/02.webp" />

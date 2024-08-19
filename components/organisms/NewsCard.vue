@@ -1,5 +1,5 @@
 <template>
-	<div class="relative bg-white">
+	<div class="relative bg-white rounded-md">
 		<div class="p-[2.6vw] md:p-[13px]">
 			<span
 				class="block text-end font-roboto text-[2.6vw] md:text-[13px] text-[#999999] my-[3vw] md:my-[15px]">2022.11.4

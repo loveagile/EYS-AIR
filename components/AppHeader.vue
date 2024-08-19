@@ -2,7 +2,7 @@
 	<header>
 		<div class="menu-bar flex flex-col fixed top-0 w-full max-w-[500px] border-[1px] border-[#999999] z-[9999]"
 			:class="navIsOpen ? 'scrollbar h-screen min-h-full overflow-y-auto bg-black' : ''">
-			<div class="flex justify-between border-b-[1px] border-[#DDDDDD] p-[2.6vw] md:p-[13px]"
+			<div class="flex justify-between border-b-[1px] border-[#DDDDDD] p-[2.4vw] md:p-[12px]"
 				:class="[navIsOpen ? 'bg-[#4A4A4A]' : 'bg-white']">
 				<NuxtLink to="/" class="flex items-center">
 					<NuxtImg :src="navIsOpen ? '/img/logo_air_clicked.webp' : '/img/logo_air.webp'" loading="lazy"

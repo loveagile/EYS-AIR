@@ -5,7 +5,7 @@
       alt="bottom-ring" />
     <div class="triangle ml-[32vw] md:ml-[160px] mt-[3vw] md:mt-[15px]"></div>
     <div class="relative overflow-x-clip" :style="{ background: `linear-gradient(to right, #FEEACE, #FFEEE3)` }">
-      <div class="p-[5.4vw] md:p-[27px] pt-[1vw] md:pt-[5px]">
+      <div class="pb-[5.4vw] md:pb-[27px] pt-[1vw] md:pt-[5px]">
         <div class="flex justify-center items-end mt-[2vw] md:mt-[10px]">
           <NuxtImg src="/img/backslash.webp" loading="lazy" class="w-[4.4vw] md:w-[22px] h-[7vw] md:h-[35px]"
             alt="backslash" />
@@ -15,7 +15,7 @@
           </h3>
           <NuxtImg src="/img/slash.webp" loading="lazy" class="w-[4.4vw] md:w-[22px] h-[7vw] md:h-[35px]" alt="slash" />
         </div>
-        <Swiper class="watch-swiper" :slides-per-view="2.1" :effect="'creative'" :creative-effect="{
+        <Swiper class="watch-swiper" :slides-per-view="2.08" :effect="'creative'" :creative-effect="{
           prev: {
             translate: ['-100%', 0, 0],
           },
@@ -52,6 +52,8 @@
 <style scoped>
 .watch-swiper {
   margin-top: 2vw;
+  position: relative;
+  padding-left: 5.4vw;
 }
 
 .triangle {
@@ -66,6 +68,7 @@
 @media (min-width: 500px) {
   .watch-swiper {
     margin-top: 10px;
+    padding-left: 27px;
   }
 
   .triangle {

@@ -27,8 +27,8 @@
 			<span class="block w-full text-center border-l-[0.4vw] md:border-l-[2px] border-[#DDDDDD]">陶芸</span>
 		</NuxtLink>
 	</div>
-	<div class="relative mb-[6vw] md:mb-[30px]">
-		<NuxtImg src="/img/top/FV.webp" class="w-full h-[160vw] md:h-[800px] absolute top-0 left-0" alt="FV_bg" />
+	<div class="relative mb-[10vw] md:mb-[50px]">
+		<NuxtImg src="/img/top/FV.webp" class="w-full h-[160.2vw] md:h-[801px] absolute top-0 left-0" alt="FV_bg" />
 
 		<div class="relative z-10 flex flex-col items-center pt-[6vw] md:pt-[30px]">
 			<div class="flex justify-center items-center">
@@ -76,7 +76,7 @@
 		</div>
 		<div class="flex justify-center">
 			<NuxtImg src="/img/top/mockup.webp" loading="lazy" width="100%" height="auto"
-				class="w-[75.2vw] md:w-[376px] h-[50vw] md:h-[250px] relative z-10" alt="mockup" />
+				class="w-[75.2vw] md:w-[376px] h-[50vw] md:h-[250px] top-[4vw] md:top-[20px] relative z-10" alt="mockup" />
 		</div>
 	</div>
 </template>
